@@ -25,16 +25,26 @@ body {
 
 h1.header {
     font-family: "Unica One", sans-serif !important;
-    font-size: 200px;
+    font-size: 50px;
     /* text-transform: uppercase; */
-    font-weight: bolder;
-    width: 90%;
+    /* font-weight: bolder; */
+    width: 28%;
+    z-index: 10;
+}
+
+h1.header:hover{
+    text-shadow: 2rem 2rem 0.24rem rgba(255, 255, 255, 0.600), 3rem 3rem 0.24rem rgba(255, 255, 255, 0.5), 4rem 4rem 0.24rem rgba(255, 255, 255, 0.350), 5rem 5rem 0.24rem rgba(255, 255, 255, 0.200), 6rem 6rem 0.24rem rgba(255, 255, 255, 0.131), 7rem 7rem 0.24rem rgba(255, 255, 255, 0.028), -1rem -1rem 0.24rem rgba(255, 255, 255, 0.600), -2rem -2rem 0.24rem rgba(255, 255, 255, 0.5), -3rem -3rem 0.24rem rgba(255, 255, 255, 0.350), -4rem -4rem 0.24rem rgba(255, 255, 255, 0.200), -5rem -5rem 0.24rem rgba(255, 255, 255, 0.131), -6rem -6rem 0.24rem rgba(255, 255, 255, 0.028), 0 0 3rem rgb(255, 0, 0), 1rem -1rem 0.24rem rgba(255, 255, 255, 0.600), 2rem -2rem 0.24rem rgba(255, 255, 255, 0.5), 3rem -3rem 0.24rem rgba(255, 255, 255, 0.350), 4rem -4rem 0.24rem rgba(255, 255, 255, 0.200), 5rem -5rem 0.24rem rgba(255, 255, 255, 0.131), 6rem -6rem 0.24rem rgba(255, 255, 255, 0.028),-1rem 1rem 0.24rem rgba(255, 255, 255, 0.600), -2rem 2rem 0.24rem rgba(255, 255, 255, 0.5), -3rem 3rem 0.24rem rgba(255, 255, 255, 0.350), -4rem 4rem 0.24rem rgba(255, 255, 255, 0.200), -5rem -5rem 0.24rem rgba(255, 255, 255, 0.131), -6rem -6rem 0.24rem rgba(255, 255, 255, 0.028), 
+     5px 5px 1px rgb(0, 0, 0);
+}
+.linkim{
+    color: black;
 }
 
 .header .letter {
     display: inline-block;
     line-height: 1em;
 }
+
 
 .titles {
     position: absolute;
@@ -45,7 +55,7 @@ h1.header {
 
 h1 {
     font-weight: 500;
-    font-size: 20rem;
+    font-size: 10rem;
     letter-spacing: 2rem;
     font-family: 'Horror Type', sans-serif;
     position: absolute;
@@ -129,6 +139,12 @@ html {
         font-size: 100px;
         letter-spacing: 5rem;
         width: 100%;
+    }
+    h1.header:hover {
+        font-size: 100px;
+        letter-spacing: 5rem;
+        width: 100%;
+        text-shadow: 0.2rem 0.2rem 10px green;
     }
 
     h1 {
