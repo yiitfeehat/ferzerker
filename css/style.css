@@ -31,7 +31,7 @@ h1.header {
     width: 90%;
     z-index: 10;
 }
-
+  
 h1.header:hover {
     text-shadow: 2rem 2rem 0.24rem rgba(255, 255, 255, 0.600), 3rem 3rem 0.24rem rgba(255, 255, 255, 0.5), 4rem 4rem 0.24rem rgba(255, 255, 255, 0.350), 5rem 5rem 0.24rem rgba(255, 255, 255, 0.200), 6rem 6rem 0.24rem rgba(255, 255, 255, 0.131), 7rem 7rem 0.24rem rgba(255, 255, 255, 0.028), -1rem -1rem 0.24rem rgba(255, 255, 255, 0.600), -2rem -2rem 0.24rem rgba(255, 255, 255, 0.5), -3rem -3rem 0.24rem rgba(255, 255, 255, 0.350), -4rem -4rem 0.24rem rgba(255, 255, 255, 0.200), -5rem -5rem 0.24rem rgba(255, 255, 255, 0.131), -6rem -6rem 0.24rem rgba(255, 255, 255, 0.028), 0 0 3rem rgb(255, 0, 0), 1rem -1rem 0.24rem rgba(255, 255, 255, 0.600), 2rem -2rem 0.24rem rgba(255, 255, 255, 0.5), 3rem -3rem 0.24rem rgba(255, 255, 255, 0.350), 4rem -4rem 0.24rem rgba(255, 255, 255, 0.200), 5rem -5rem 0.24rem rgba(255, 255, 255, 0.131), 6rem -6rem 0.24rem rgba(255, 255, 255, 0.028), -1rem 1rem 0.24rem rgba(255, 255, 255, 0.600), -2rem 2rem 0.24rem rgba(255, 255, 255, 0.5), -3rem 3rem 0.24rem rgba(255, 255, 255, 0.350), -4rem 4rem 0.24rem rgba(255, 255, 255, 0.200), -5rem -5rem 0.24rem rgba(255, 255, 255, 0.131), -6rem -6rem 0.24rem rgba(255, 255, 255, 0.028),
         5px 5px 1px rgb(0, 0, 0);
